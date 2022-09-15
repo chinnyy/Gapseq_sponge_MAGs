@@ -1,0 +1,35 @@
+
+#!/bin/bash
+
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=200gb
+#PBS -l walltime=11:59:00
+#PBS -M z5434493@gmail.com
+#PBS -m ae
+
+#################### BacArena #################### 
+
+module load gcc/6.2.0
+module load parallel/20190522
+module load openmpi/4.0.1-intel
+module load R/3.6.3 # with packageVersion('BacArena') # 1.8.2 (installed from CRAN)
+module load glpk/4.65
+module load cplex/12.9.0-academic
+
+cd /srv/scratch/z5434493/Am_queenslandica/AqS1
+
+# For single species analysis: with HT & nitrite & NO3
+
+# Navigate to where the medium is located
+dir_diet=/srv/scratch/z5434493/Am_queenslandica/AqS1
+
+# Navigate to where the .rds file is located
+dir_model=/srv/scratch/z5434493/Am_queenslandica/AqS1/2022_pred_diet_AqS1
+
+# Name of the medium .rds file
+infile_diet= AqS1-medium_formatted.RDS
+
+# Key word????
+key_word=mtf_220602_full_recipe
+
+Rscript Rscript_BacArena_Actinobacteria__simuDiet_optparse_mtf_limitgrow_ka.R --otu_name AqS1 --infile_my_model ${dir_model}AqS1.RDS --infile_BacarenaRDS_diet ${dir_diet}${infile_diet} --keywd ${key_word} --arena_mn 20 --death_r 0 --inocc_no 0.05 --cl_no 1 --iter 15

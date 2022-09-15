@@ -80,4 +80,4 @@ for each in open(Input_keyfile):
             for_print = '%s\t%s\t%s\n' % (react_id,react_flux,'\t'.join(each_split))
             output_handle.write(for_print)
 output_handle.close()
-print('Done! Check result file: 050_model_OTU07_gfMOM_Smat_fluxes_ETC_complexes.tsv')
+print('Done! ')

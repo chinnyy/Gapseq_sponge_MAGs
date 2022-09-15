@@ -18,7 +18,7 @@ module load cplex/12.9.0-academic
 
 cd /srv/scratch/z5434493/Am_queenslandica/AqS1
 
-# For single species analysis: with HT & nitrite & NO3
+# For single species analysis: 
 
 # Navigate to where the medium is located
 dir_diet=/srv/scratch/z5434493/Am_queenslandica/AqS1

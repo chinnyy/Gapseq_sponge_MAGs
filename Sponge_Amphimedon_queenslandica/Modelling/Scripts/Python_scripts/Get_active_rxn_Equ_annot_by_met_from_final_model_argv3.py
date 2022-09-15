@@ -90,8 +90,8 @@ dict_seed_reactions_corrected_tsv_format   = input_dir + 'seed_reactions_correct
 
 # Input/output files:
 input_file_Smat_flux            = input_dir + '052_model_' + model_id + '_gfM_Smat_fluxes.flux_lt0.annotate.tsv'
-output_file_target_met          = input_dir + '053_model_' + model_id + '_gfM_Smat_fluxes.flux_lt0.annotate.'+target_met+'.tsv'
-output_file_target_rxn_equation = input_dir + '053_model_' + model_id + '_gfM_Smat_fluxes.flux_lt0.annotate.'+target_met+'.Equ.tsv'
+output_file_target_met          = input_dir + '053_model/'+'053_model_' + model_id + '_gfM_Smat_fluxes.flux_lt0.annotate.'+target_met+'.tsv'
+output_file_target_rxn_equation = input_dir + '053_model/'+'053_model_' + model_id + '_gfM_Smat_fluxes.flux_lt0.annotate.'+target_met+'.Equ.tsv'
 
 # # step01. get a table with reactions' fluxes NOT = 0.
 

@@ -1,6 +1,7 @@
 ##################### st1. Get input model files and output docs ##################### 
 library(stringr)
 library(sybil)
+library(dplyr)
 
 #### STEP 1.1: SET WORKING DIRECTORY AND CREATE NEW FOLDER AND FILE ####
 
@@ -52,7 +53,7 @@ colnames(df_model_gfm_list) <- c('react_id','react_name','react_rev','react_sing
                                 "pathway.status","complex","exception",
                                 "complex.status","gs.origin","annotation","MNX_ID",
                                 "seedID","keggID","biggID","biocycID")
-write.table(df_model_gfm_list, file = outfile_add_043,quote = F,row.names = F,sep = '/t')
+write.table(df_model_gfm_list, file = outfile_add_043,quote = F,row.names = F,sep='\t')
 
 # The output contains many KEGG reaction ids, which can be converted to SEED RXN ids by using seed_reactions.tsv.
 
@@ -70,7 +71,7 @@ colnames(df_model_gfm_list_met) <- c('met_id','met_name','met_comp','met_single'
 # R Sort a Data Frame using Order()
 df_model_gfm_list_met_sort <- df_model_gfm_list_met[order(df_model_gfm_list_met$met_id),]
 
-write.table(df_model_gfm_list_met_sort, file = outfile_add_045, quote = F,row.names = F,sep = '/t')
+write.table(df_model_gfm_list_met_sort, file = outfile_add_045, quote = F,row.names = F,sep='\t')
 
 
 ########################## st3. Extract Stoichiometric matrix from the modified model (MM). ############################# 
@@ -135,7 +136,6 @@ mycmd2 = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_quee
 all_path = paste(setwd,'/Input_files/',gfM_dir,model_id,'-all-Pathways.tbl', sep = '')
 model_043 = paste('043_model_',model_id,'_gfM_list_react.tsv', sep = '')
 
-
 system(paste(mycmd2,
              '-dir_gfM',input_dir,
              '-gs',gapseq_version,
@@ -147,7 +147,6 @@ system(paste(mycmd2,
 # output files:
 # seed_reactions_corrected.formatted_reat_add.status.tsv
 
-### ALTERNATIVE VERSION MORE SIMILAR TO THE ONE BY SHAN
 
 mycmd1 = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts/Python_scripts/Get_a_file_of_formatted_MS_reactions_with_assigned_reaction_and_pathway_status.py'
 # Please open the python script "Get_a_file_of_formatted_MS_reactions_with_assigned_reaction_and_pathway_status.py", and change the path of "dict_gs_seed_rxn" in line 63.
@@ -227,6 +226,8 @@ list_met = list('cpd00013', #NH3-c0	and NH3-e0
 
 mycmd3 = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts/Python_scripts/Get_active_rxn_Equ_annot_by_met_from_final_model_argv3.py'
 
+# Create a new file to store 053_model
+dir.create(paste(setwd,'/07_gf_model/',model_id,'/053_model',sep = ''), showWarnings = TRUE, recursive = TRUE)
 
 for (met in list_met) {
   print(met)
@@ -242,27 +243,131 @@ for (met in list_met) {
 # output files:
 
 # RETURNS A WHOLE LOT OF OUTPUT, DEPENDING ON YOUR LIST_MET LENGTH
-# CURRENTLY DOES NOT RUN AND REQUIRES 'seed_reactions_corrected.formatted_reat_add.status.tsv' 
+# Added a little more: create a folder "053_model" to store these outputs
 
 ######################## Follow with python script of 'Get_ETC_complexes_reaction_flux_argv.py '######################## 
 
 
 mycmd4 = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts/Python_scripts/Get_ETC_complexes_reaction_flux_argv.py'
 
-mycmd2 = paste('-in_dict ',outfile_050, sep = '')
-# mycmd3 = '-file 052_model_OTU07_gfM_Smat_fluxes.flux_lt0.annotate.tsv'
-mycmd5 = paste('-in_key ','/Users/zzfanyi/Gh_Sflabelliformis_8_MAGs/Gapseq_sponge_MAGs/Sponge_Petrosia_ficiformis/Actino_5_Burgsdorf_2021/06_DB_files/EC_num_of_ETC_complexes.txt',sep = '')
-mycmd6 = paste('-gs ',gapseq_version,sep = '')
-mycmd7 = paste('-out ', outfile_050_3, sep='')
-
-system(paste(mycmd1,mycmd2,mycmd5,mycmd6,mycmd7,sep = ' '))
-
 system(paste(mycmd4,
              '-in_dict ',outfile_050,
-             '-in_key ',paste(setwd,'EC_num_of_ETC_complexes.txt',sep = ''), # THIS LINE IS TBC
+             '-in_key ',paste(setwd,'/Input_files/DB_files/EC_num_of_ETC_complexes.txt',sep = ''), 
              '-gs',gapseq_version,
              '-out ', outfile_050_3,
              sep = ' '))
 
+
 # output files:
 # 050_model_AqS1_gfM_Smat_fluxes_ETC_complexes.tsv
+
+### New input by faith,
+### This additional part is to generate the "XXXX_completely_filled_in_reactions.txt"
+### This file consist of reactions only present in the "043" files of the final model compared to the draft model.
+### However to get that, we must first generate the files based on the draft model 
+
+## Generating files based on draft model
+
+draft_id <- "draft_AqS1"
+
+# Create a new file to store 053_model
+dir.create(paste(setwd,'/07_gf_model/',model_id,'/draft',sep = ''), showWarnings = TRUE, recursive = TRUE)
+
+draft_folder<- paste(new_folder_nm,'draft/',sep = '')
+
+
+# Assign output RDS file name:
+outfile_add_043= paste(setwd, draft_folder,'/043_model_',draft_id,'_gfM_list_react.tsv',sep = '')
+outfile_add_045= paste(setwd, draft_folder,'/045_model_',draft_id,'_gfM_list_metabolites.tsv',sep = '')
+outfile_add_046= paste(setwd, draft_folder,'/046_model_',draft_id,'_gfM_Smat.csv',sep = '')
+infile_046     = outfile_add_046
+outfile_050    = paste(setwd, draft_folder,'/050_model_',draft_id,'_gfM_Smat_fluxes.csv',sep = "")
+outfile_050_2  = paste(setwd, draft_folder,'/050_2_model_',draft_id,'_gfM_Smat_fluxes.csv',sep = "")
+outfile_050_3 = paste(setwd, draft_folder,'/050_model_',draft_id,'_gfM_Smat_fluxes_ETC_complexes.tsv',sep = "")
+
+# Load the model RDS file
+draft_gfm <- readRDS(paste(setwd,"/Input_files/AqS1/AqS1-draft.RDS",sep = ""))
+
+## Warning message: In readRDS(paste(setwd, "/Input_files/AqS1/AqS1-draft.RDS", sep = "")) :strings not representable in native encoding will be translated to UTF-8
+
+#### STEP 1.2: EXTRACT KEGG REACTION IDS FROM .RDS FILE ####
+
+# Extract all reactions from the addReact OM.
+
+draft_gfm_list <- list(draft_gfm@react_id, draft_gfm@react_name, draft_gfm@react_rev, 
+                       draft_gfm@react_single, draft_gfm@react_de,draft_gfm@lowbnd, 
+                       draft_gfm@uppbnd, draft_gfm@obj_coef, draft_gfm@gprRules, 
+                       draft_gfm@gpr, draft_gfm@react_attr)
+
+df_draft_gfm_list  <- as.data.frame(draft_gfm_list, row.names = NULL)
+
+colnames(df_draft_gfm_list) <- c('react_id','react_name','react_rev','react_single',
+                                 'react_de','lowbnd','uppbnd','obj_coef','gprRules',
+                                 'gpr','seed',"rxn","name","ec","tc","qseqid",
+                                 "pident","evalue","bitscore","qcovs","stitle",
+                                 "sstart","send","pathway","blast.status",
+                                 "pathway.status","complex","exception",
+                                 "complex.status","gs.origin","annotation","MNX_ID",
+                                 "seedID","keggID","biggID","biocycID")
+write.table(df_draft_gfm_list, file = outfile_add_043,quote = F,row.names = F,sep='\t')
+
+# The output contains many KEGG reaction ids, which can be converted to SEED RXN ids by using seed_reactions.tsv.
+
+
+########################## st2. Extract all metabolites from the modified model (MM). ############################# 
+
+draft_gfm_met_name = draft_gfm@met_name
+draft_gfm_met_id = draft_gfm@met_id
+
+# draft_gfm: Generate a dataframe with metabolite info for each model
+draft_gfm_list_met <- list(draft_gfm@met_id, draft_gfm@met_name, draft_gfm@met_comp, draft_gfm@met_single, draft_gfm@met_de)
+df_draft_gfm_list_met <- as.data.frame(draft_gfm_list_met, row.names = NULL)
+colnames(df_draft_gfm_list_met) <- c('met_id','met_name','met_comp','met_single','met_de')
+
+# R Sort a Data Frame using Order()
+df_draft_gfm_list_met_sort <- df_draft_gfm_list_met[order(df_draft_gfm_list_met$met_id),]
+
+write.table(df_draft_gfm_list_met_sort, file = outfile_add_045, quote = F,row.names = F,sep='\t')
+
+
+########################## st3. Extract Stoichiometric matrix from the modified model (MM). ############################# 
+draft_gfm_Smat <- draft_gfm@S
+draft_gfm_Smat_mx = as.matrix(draft_gfm@S)
+
+colnames(draft_gfm_Smat_mx)<-cbind(draft_gfm@react_id)
+row.names(draft_gfm_Smat_mx)<-cbind(draft_gfm@met_id)
+
+write.csv(draft_gfm_Smat_mx, file = outfile_add_046, quote = FALSE,row.names = T)
+
+# In this table, you can check the flux (values) of a compound (e.g. cpd16503[e0]) of this model based on the reaction ID (e.g. EX_cpd16503_e0).
+
+########################## st6. Check flux from the gfM. #############################  
+
+mod = draft_gfm
+
+# Adding a new column called 'sol$fluxes' with the same length to the 'reaction id', which shows fluxes of each reaction.
+
+sol <- sybil::optimizeProb(mod, retOptSol=F, algorithm = "fba") # find a list (of 7,sol), which include flux info of 765 reactions for this model.
+
+draft_gfm_flux_list <- as.list(sol$fluxes)
+draft_gfm_flux_list <- as.data.frame(sol$fluxes)
+
+draft_gfm_Smat <- mod@S
+draft_gfm_Smat <- read.csv(file = infile_046,row.names = 'X')
+t_draft_gfm_Smat <- as.data.frame(t(draft_gfm_Smat))
+cbind_t_draft_gfm_Smat<- as.data.frame(cbind(draft_gfm_flux_list, t_draft_gfm_Smat))
+
+write.csv(cbind_t_draft_gfm_Smat, quote = FALSE,file = outfile_050)
+# IMPORTANT: check the flux value of ADD_BIOMASS, if it is negative, it is not right!
+
+### Generating "XXXX_completely_filled_in_reactions.txt" 
+# This file consist of reactions only present in the "043" files of the final model compared to the draft model.
+# The 043 file for final model is stored in df_model_gfm_list
+# The 043 file for draft model is stored in df_draft_gfm_list
+
+filled_rxn<-anti_join(df_model_gfm_list,df_draft_gfm_list, by="react_id")
+
+write.table(filled_rxn, file = paste(setwd,new_folder_nm,model_id,"_completely_filled_in_reactions.txt", sep = ""), sep = "")
+
+
+

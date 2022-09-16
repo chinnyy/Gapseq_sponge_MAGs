@@ -1,0 +1,15 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn00187_c0	L-Glutamate:ammonia ligase (ADP-forming)	3.299921151834	-1	0
+rxn00916_c0	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	0.0967651054998435	-1	0
+rxn00949_c0	L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)	0.00735210402166031	1	0
+rxn02475_c0	2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase	0.00307252298159027	1	0
+rxn05466_c0	TRANS-RXN-173.ce	3.36403685349554	1	-1
+rxn10506_c0	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	1.37261797508456e-28	1	0
+EX_cpd00013_e0	Exchange of Ammonium	-3.36403685349554	0	-1
+rxn00060_c0	porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)	0.00307252298163946	4	0
+rxn00138_c0	deamido-NAD+:ammonia ligase (AMP-forming)	0.00307252298159438	-1	0
+rxn00340_c0	L-aspartate:ammonia ligase (AMP-forming)	0.0890711297861739	-1	0
+rxn00410_c0	UTP:ammonia ligase (ADP-forming)	0.0590902735232584	-1	0
+rxn00908_c0	glycine synthase	0.392267165127341	1	0
+rxn07456_c0	R07641	0.23109855392782	-1	0

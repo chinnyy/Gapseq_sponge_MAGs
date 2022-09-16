@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00081[c0]
+		met_name	Sulfite[c0]
+rxn05239_c0	adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)	1.00185334963068e-28	1
+rxn05256_c0	AMP,sulfite:thioredoxin-disulfide oxidoreductase(adenosine-5'-phosphosulfate-forming)	0.00401974261846721	1
+rxn00651_c0	L-cysteine hydrogen-sulfide-lyase (adding sulfite; L-cysteate-forming)	0.00401974261846721	-1

@@ -1,0 +1,9 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn01438_c0	L-Kynurenine,NADPH:oxygen oxidoreductase (3-hydroxylating)	0.00273430548462539	-1	0
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)	0.00136715274231276	-1	0
+rxn05468_c0	TRANS-RXNAVI-26568.ce	12.5	1	-1
+EX_cpd00007_e0	Exchange of O2	-12.5	0	-1
+rxn00478_c0	L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing)	0.00507461084713893	-1	0
+rxn01927_c0	3-Hydroxyanthranilate:oxygen 3,4-oxidoreductase (decyclizing)	0.00273430548462539	-1	0
+rxn12494_c0	ubiquinol oxidase	12.4880896254413	-1	0

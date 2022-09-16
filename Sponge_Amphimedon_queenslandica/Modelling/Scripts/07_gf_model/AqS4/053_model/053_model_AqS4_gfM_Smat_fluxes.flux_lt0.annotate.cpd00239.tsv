@@ -1,0 +1,6 @@
+		sol$fluxes	cpd00239[c0]	cpd00239[e0]
+		met_name	H2S[c0]	H2S[e0]
+rxn05957_c0	O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase	-1000	-1	0
+rxn14246_c0	L-homocysteine hydrogen-sulfide-lyase	-999.931481442503	1	0
+rxn08689_c0	h2s transport (periplasm)	0.0685185574966872	-1	1
+EX_cpd00239_e0	Exchange of H2S	0.0685185574966872	0	-1

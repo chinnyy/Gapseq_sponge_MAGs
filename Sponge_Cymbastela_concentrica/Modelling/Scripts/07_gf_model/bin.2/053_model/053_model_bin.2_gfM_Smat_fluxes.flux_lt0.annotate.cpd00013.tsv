@@ -1,0 +1,16 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn00138_c0	deamido-NAD+:ammonia ligase (AMP-forming)	0.00268899436236431	-1	0
+rxn00908_c0	glycine synthase	0.00375544062338014	1	0
+rxn05466_c0	TRANS-RXN-173.ce	0.318140676737213	1	-1
+EX_cpd00013_e0	Exchange of Ammonium	-0.318140676737213	0	-1
+rxn00060_c0	porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)	0.000859898914987147	4	0
+rxn00395_c0	L-Arginine iminohydrolase	0.0340883113192547	1	0
+rxn00410_c0	UTP:ammonia ligase (ADP-forming)	0.0165374392293869	-1	0
+rxn00774_c0	Ribose-5-phosphate:ammonia ligase (ADP-forming)	0.0736307178175878	-1	0
+rxn00916_c0	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	0.0503351194667288	-1	0
+rxn02475_c0	2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase	0.024113623148369	1	0
+rxn03840_c0	R05552	0.00128984837248073	-1	0
+rxn04952_c0	L-aspartate:NAD+ oxidoreductase (deaminating)	-0.196052094737485	1	0
+rxn10484_c0	diaminopimelate dehydrogenase	0.0369904209165421	-1	0
+rxn13141_c0	Glucosamine-6-phosphate deaminase	-0.00601301258558924	1	0

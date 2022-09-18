@@ -1,0 +1,504 @@
+met_id	met_name	met_comp	met_single	met_de
+cpd00001[c0]	H2O-c0	1	NA	NA
+cpd00001[e0]	H2O-e0	2	NA	NA
+cpd00002[c0]	ATP-c0	1	NA	NA
+cpd00003[c0]	NAD-c0	1	NA	NA
+cpd00003[e0]	NAD-e0	2	NA	NA
+cpd00004[c0]	NADH-c0	1	NA	NA
+cpd00005[c0]	NADPH-c0	1	NA	NA
+cpd00006[c0]	NADP-c0	1	NA	NA
+cpd00006[e0]	NADP-e0	2	NA	NA
+cpd00007[c0]	O2-c0	1	NA	NA
+cpd00007[e0]	O2-e0	2	NA	NA
+cpd00008[c0]	ADP-c0	1	NA	NA
+cpd00009[c0]	Phosphate-c0	1	NA	NA
+cpd00009[e0]	Phosphate-e0	2	NA	NA
+cpd00010[c0]	CoA-c0	1	NA	NA
+cpd00011[c0]	CO2-c0	1	NA	NA
+cpd00011[e0]	CO2-e0	2	NA	NA
+cpd00012[c0]	PPi-c0	1	NA	NA
+cpd00013[c0]	NH3-c0	1	NA	NA
+cpd00013[e0]	NH3-e0	2	NA	NA
+cpd00014[c0]	UDP-c0	1	NA	NA
+cpd00015[c0]	FAD	1	NA	NA
+cpd00016[c0]	Pyridoxal phosphate	1	NA	NA
+cpd00017[c0]	S-Adenosyl-L-methionine	1	NA	NA
+cpd00018[c0]	AMP-c0	1	NA	NA
+cpd00019[c0]	S-Adenosyl-homocysteine-c0	1	NA	NA
+cpd00020[c0]	Pyruvate-c0	1	NA	NA
+cpd00022[c0]	Acetyl-CoA-c0	1	NA	NA
+cpd00023[c0]	L-Glutamate-c0	1	NA	NA
+cpd00023[e0]	L-Glutamate-e0	2	NA	NA
+cpd00024[c0]	2-Oxoglutarate-c0	1	NA	NA
+cpd00025[c0]	H2O2-c0	1	NA	NA
+cpd00025[e0]	H2O2-e0	2	NA	NA
+cpd00026[c0]	UDP-glucose-c0	1	NA	NA
+cpd00027[c0]	D-Glucose-c0	1	NA	NA
+cpd00027[e0]	D-Glucose-e0	2	NA	NA
+cpd00028[c0]	Heme	1	NA	NA
+cpd00029[c0]	Acetate-c0	1	NA	NA
+cpd00029[e0]	Acetate-e0	2	NA	NA
+cpd00030[c0]	Mn2+-c0	1	NA	NA
+cpd00030[e0]	Mn2+-e0	2	NA	NA
+cpd00032[c0]	Oxaloacetate-c0	1	NA	NA
+cpd00033[c0]	Glycine-c0	1	NA	NA
+cpd00033[e0]	Glycine-e0	2	NA	NA
+cpd00034[c0]	Zn2+-c0	1	NA	NA
+cpd00034[e0]	Zn2+-e0	2	NA	NA
+cpd00035[c0]	L-Alanine-c0	1	NA	NA
+cpd00035[e0]	L-Alanine-e0	2	NA	NA
+cpd00036[c0]	Succinate-c0	1	NA	NA
+cpd00036[e0]	Succinate-e0	2	NA	NA
+cpd00038[c0]	GTP	1	NA	NA
+cpd00039[c0]	L-Lysine-c0	1	NA	NA
+cpd00039[e0]	L-Lysine-e0	2	NA	NA
+cpd00041[c0]	L-Aspartate-c0	1	NA	NA
+cpd00041[e0]	L-Aspartate-e0	2	NA	NA
+cpd00042[c0]	GSH	1	NA	NA
+cpd00048[c0]	Sulfate	1	NA	NA
+cpd00050[c0]	FMN-c0	1	NA	NA
+cpd00051[c0]	L-Arginine-c0	1	NA	NA
+cpd00051[e0]	L-Arginine-e0	2	NA	NA
+cpd00052[c0]	CTP	1	NA	NA
+cpd00053[c0]	L-Glutamine-c0	1	NA	NA
+cpd00053[e0]	L-Glutamine-e0	2	NA	NA
+cpd00054[c0]	L-Serine-c0	1	NA	NA
+cpd00054[e0]	L-Serine-e0	2	NA	NA
+cpd00055[c0]	Formaldehyde-c0	1	NA	NA
+cpd00055[e0]	Formaldehyde-e0	2	NA	NA
+cpd00056[c0]	TPP-c0	1	NA	NA
+cpd00058[c0]	Cu2+-c0	1	NA	NA
+cpd00058[e0]	Cu2+-e0	2	NA	NA
+cpd00060[c0]	L-Methionine-c0	1	NA	NA
+cpd00060[e0]	L-Methionine-e0	2	NA	NA
+cpd00061[c0]	Phosphoenolpyruvate-c0	1	NA	NA
+cpd00062[c0]	UTP	1	NA	NA
+cpd00063[c0]	Ca2+	1	NA	NA
+cpd00064[c0]	Ornithine-c0	1	NA	NA
+cpd00064[e0]	Ornithine-e0	2	NA	NA
+cpd00065[c0]	L-Tryptophan-c0	1	NA	NA
+cpd00066[c0]	L-Phenylalanine	1	NA	NA
+cpd00067[c0]	H+-c0	1	NA	NA
+cpd00067[e0]	H+-e0	2	NA	NA
+cpd00069[c0]	L-Tyrosine	1	NA	NA
+cpd00070[c0]	Malonyl-CoA-c0	1	NA	NA
+cpd00071[c0]	Acetaldehyde-c0	1	NA	NA
+cpd00071[e0]	Acetaldehyde-e0	2	NA	NA
+cpd00072[c0]	D-fructose-6-phosphate-c0	1	NA	NA
+cpd00073[c0]	Urea-c0	1	NA	NA
+cpd00073[e0]	Urea-e0	2	NA	NA
+cpd00075[c0]	Nitrite-c0	1	NA	NA
+cpd00075[e0]	Nitrite-e0	2	NA	NA
+cpd00076[c0]	Sucrose-c0	1	NA	NA
+cpd00078[c0]	Succinyl-CoA-c0	1	NA	NA
+cpd00079[c0]	D-glucose-6-phosphate-c0	1	NA	NA
+cpd00080[c0]	Glycerol-3-phosphate-c0	1	NA	NA
+cpd00081[c0]	Sulfite-c0	1	NA	NA
+cpd00082[c0]	D-Fructose-c0	1	NA	NA
+cpd00082[e0]	D-Fructose-e0	2	NA	NA
+cpd00084[c0]	L-Cysteine-c0	1	NA	NA
+cpd00084[e0]	L-Cysteine-e0	2	NA	NA
+cpd00086[c0]	Propionyl-CoA-c0	1	NA	NA
+cpd00087[c0]	Tetrahydrofolate-c0	1	NA	NA
+cpd00089[c0]	Glucose-1-phosphate-c0	1	NA	NA
+cpd00091[c0]	UMP-c0	1	NA	NA
+cpd00092[c0]	Uracil-c0	1	NA	NA
+cpd00094[c0]	2-Oxobutyrate-c0	1	NA	NA
+cpd00095[c0]	Glycerone-phosphate-c0	1	NA	NA
+cpd00098[c0]	Choline-c0	1	NA	NA
+cpd00098[e0]	Choline-e0	2	NA	NA
+cpd00099[c0]	Cl-	1	NA	NA
+cpd00100[c0]	Glycerol-c0	1	NA	NA
+cpd00101[c0]	ribose-5-phosphate-c0	1	NA	NA
+cpd00102[c0]	Glyceraldehyde3-phosphate-c0	1	NA	NA
+cpd00103[c0]	PRPP-c0	1	NA	NA
+cpd00104[c0]	BIOT-c0	1	NA	NA
+cpd00104[e0]	BIOT-e0	2	NA	NA
+cpd00105[c0]	D-Ribose-c0	1	NA	NA
+cpd00105[e0]	D-Ribose-e0	2	NA	NA
+cpd00106[c0]	Fumarate-c0	1	NA	NA
+cpd00106[e0]	Fumarate-e0	2	NA	NA
+cpd00106[p0]	Fumarate-p0	3	NA	NA
+cpd00107[c0]	L-Leucine-c0	1	NA	NA
+cpd00107[e0]	L-Leucine-e0	2	NA	NA
+cpd00108[c0]	Galactose-c0	1	NA	NA
+cpd00108[e0]	Galactose-e0	2	NA	NA
+cpd00115[c0]	dATP	1	NA	NA
+cpd00116[c0]	Methanol-c0	1	NA	NA
+cpd00116[e0]	Methanol-e0	2	NA	NA
+cpd00118[c0]	Putrescine	1	NA	NA
+cpd00119[c0]	L-Histidine-c0	1	NA	NA
+cpd00119[e0]	L-Histidine-e0	2	NA	NA
+cpd00120[c0]	Butyryl-CoA-c0	1	NA	NA
+cpd00121[c0]	L-Inositol-c0	1	NA	NA
+cpd00121[e0]	L-Inositol-e0	2	NA	NA
+cpd00123[c0]	3-Methyl-2-oxobutanoate-c0	1	NA	NA
+cpd00125[c0]	5-10-Methylenetetrahydrofolate-c0	1	NA	NA
+cpd00128[c0]	Adenine-c0	1	NA	NA
+cpd00129[c0]	L-Proline-c0	1	NA	NA
+cpd00129[e0]	L-Proline-e0	2	NA	NA
+cpd00130[c0]	L-Malate-c0	1	NA	NA
+cpd00130[e0]	L-Malate-e0	2	NA	NA
+cpd00130[p0]	L-Malate-p0	3	NA	NA
+cpd00132[c0]	L-Asparagine-c0	1	NA	NA
+cpd00132[e0]	L-Asparagine-e0	2	NA	NA
+cpd00133[c0]	Nicotinamide-c0	1	NA	NA
+cpd00133[e0]	Nicotinamide-e0	2	NA	NA
+cpd00135[c0]	Homocysteine-c0	1	NA	NA
+cpd00137[c0]	Citrate-c0	1	NA	NA
+cpd00138[c0]	D-Mannose-c0	1	NA	NA
+cpd00138[e0]	D-Mannose-e0	2	NA	NA
+cpd00141[c0]	Propionate-c0	1	NA	NA
+cpd00141[e0]	Propionate-e0	2	NA	NA
+cpd00144[c0]	UDPglucuronate-c0	1	NA	NA
+cpd00146[c0]	Carbamoylphosphate-c0	1	NA	NA
+cpd00149[c0]	Co2+-c0	1	NA	NA
+cpd00149[e0]	Co2+-e0	2	NA	NA
+cpd00150[c0]	HCN-c0	1	NA	NA
+cpd00150[e0]	HCN-e0	2	NA	NA
+cpd00153[c0]	Benzoate-c0	1	NA	NA
+cpd00153[e0]	Benzoate-e0	2	NA	NA
+cpd00154[c0]	Xylose-c0	1	NA	NA
+cpd00154[e0]	Xylose-e0	2	NA	NA
+cpd00156[c0]	L-Valine-c0	1	NA	NA
+cpd00156[e0]	L-Valine-e0	2	NA	NA
+cpd00157[c0]	Glycerone-c0	1	NA	NA
+cpd00161[c0]	L-Threonine-c0	1	NA	NA
+cpd00161[e0]	L-Threonine-e0	2	NA	NA
+cpd00166[c0]	Calomide	1	NA	NA
+cpd00171[c0]	D-Ribulose5-phosphate-c0	1	NA	NA
+cpd00178[c0]	Acetone-c0	1	NA	NA
+cpd00178[e0]	Acetone-e0	2	NA	NA
+cpd00179[c0]	Maltose-c0	1	NA	NA
+cpd00179[e0]	Maltose-e0	2	NA	NA
+cpd00182[c0]	Adenosine-c0	1	NA	NA
+cpd00185[c0]	D-Arabinose-c0	1	NA	NA
+cpd00185[e0]	D-Arabinose-e0	2	NA	NA
+cpd00190[c0]	beta-D-Glucose-c0	1	NA	NA
+cpd00199[c0]	4-Oxobutanoate-c0	1	NA	NA
+cpd00200[c0]	4MOP-c0	1	NA	NA
+cpd00201[c0]	10-Formyltetrahydrofolate-c0	1	NA	NA
+cpd00204[c0]	CO-c0	1	NA	NA
+cpd00204[e0]	CO-e0	2	NA	NA
+cpd00205[c0]	K+-c0	1	NA	NA
+cpd00205[e0]	K+-e0	2	NA	NA
+cpd00207[c0]	Guanine-c0	1	NA	NA
+cpd00208[c0]	LACT-c0	1	NA	NA
+cpd00208[e0]	LACT-e0	2	NA	NA
+cpd00209[c0]	Nitrate-c0	1	NA	NA
+cpd00209[e0]	Nitrate-e0	2	NA	NA
+cpd00210[c0]	Taurine-c0	1	NA	NA
+cpd00210[e0]	Taurine-e0	2	NA	NA
+cpd00213[c0]	Lipoamide-c0	1	NA	NA
+cpd00216[c0]	Chorismate-c0	1	NA	NA
+cpd00218[c0]	Niacin-c0	1	NA	NA
+cpd00220[c0]	Riboflavin-c0	1	NA	NA
+cpd00220[e0]	Riboflavin-e0	2	NA	NA
+cpd00224[c0]	L-Arabinose-c0	1	NA	NA
+cpd00224[e0]	L-Arabinose-e0	2	NA	NA
+cpd00226[c0]	HYXN-c0	1	NA	NA
+cpd00236[c0]	D-Erythrose4-phosphate-c0	1	NA	NA
+cpd00239[c0]	H2S-c0	1	NA	NA
+cpd00239[e0]	H2S-e0	2	NA	NA
+cpd00241[c0]	dGTP	1	NA	NA
+cpd00242[c0]	H2CO3-c0	1	NA	NA
+cpd00244[c0]	Ni2+-c0	1	NA	NA
+cpd00244[e0]	Ni2+-e0	2	NA	NA
+cpd00246[c0]	Inosine-c0	1	NA	NA
+cpd00254[c0]	Mg-c0	1	NA	NA
+cpd00254[e0]	Mg-e0	2	NA	NA
+cpd00259[c0]	D-Lyxulose-c0	1	NA	NA
+cpd00260[c0]	Isocitrate-c0	1	NA	NA
+cpd00264[c0]	Spermidine	1	NA	NA
+cpd00268[c0]	H2S2O3-c0	1	NA	NA
+cpd00269[c0]	2-Oxoadipate-c0	1	NA	NA
+cpd00274[c0]	Citrulline-c0	1	NA	NA
+cpd00277[c0]	Deoxyguanosine-c0	1	NA	NA
+cpd00284[c0]	6-Phospho-D-gluconate-c0	1	NA	NA
+cpd00290[c0]	D-fructose-1,6-bisphosphate-c0	1	NA	NA
+cpd00305[c0]	Thiamin-c0	1	NA	NA
+cpd00305[e0]	Thiamin-e0	2	NA	NA
+cpd00306[c0]	Xylitol-c0	1	NA	NA
+cpd00309[c0]	XAN-c0	1	NA	NA
+cpd00311[c0]	Guanosine-c0	1	NA	NA
+cpd00314[c0]	D-Mannitol-c0	1	NA	NA
+cpd00314[e0]	D-Mannitol-e0	2	NA	NA
+cpd00322[c0]	L-Isoleucine-c0	1	NA	NA
+cpd00322[e0]	L-Isoleucine-e0	2	NA	NA
+cpd00324[c0]	MTTL-c0	1	NA	NA
+cpd00324[e0]	MTTL-e0	2	NA	NA
+cpd00331[c0]	cis-Aconitate-c0	1	NA	NA
+cpd00334[c0]	L-Lactaldehyde-c0	1	NA	NA
+cpd00345[c0]	5-Methyltetrahydrofolate	1	NA	NA
+cpd00347[c0]	5-10-Methenyltetrahydrofolate-c0	1	NA	NA
+cpd00349[c0]	Sedoheptulose 1,7-bisphosphate-c0	1	NA	NA
+cpd00353[c0]	D-threo-Isocitric acid-c0	1	NA	NA
+cpd00356[c0]	dCTP	1	NA	NA
+cpd00357[c0]	TTP	1	NA	NA
+cpd00359[c0]	indol-c0	1	NA	NA
+cpd00359[e0]	indol-e0	2	NA	NA
+cpd00360[c0]	Purine-c0	1	NA	NA
+cpd00361[c0]	ACTN-c0	1	NA	NA
+cpd00363[c0]	Ethanol-c0	1	NA	NA
+cpd00363[e0]	Ethanol-e0	2	NA	NA
+cpd00371[c0]	Propanal-c0	1	NA	NA
+cpd00371[e0]	Propanal-e0	2	NA	NA
+cpd00379[c0]	Glutarate-c0	1	NA	NA
+cpd00380[c0]	Itaconate-c0	1	NA	NA
+cpd00380[e0]	Itaconate-e0	2	NA	NA
+cpd00387[c0]	ADPglucose-c0	1	NA	NA
+cpd00393[c0]	Folate-c0	1	NA	NA
+cpd00393[e0]	Folate-e0	2	NA	NA
+cpd00405[c0]	Hexadecanal-c0	1	NA	NA
+cpd00412[c0]	Deoxyuridine-c0	1	NA	NA
+cpd00413[c0]	Glutaryl-CoA-c0	1	NA	NA
+cpd00417[c0]	L-Lyxitol-c0	1	NA	NA
+cpd00418[c0]	NO-c0	1	NA	NA
+cpd00418[e0]	NO-e0	2	NA	NA
+cpd00428[c0]	2-Oxopropanal-c0	1	NA	NA
+cpd00438[c0]	Deoxyadenosine-c0	1	NA	NA
+cpd00448[c0]	D-Glyceraldehyde-c0	1	NA	NA
+cpd00448[e0]	D-Glyceraldehyde-e0	2	NA	NA
+cpd00449[c0]	Dihydrolipoamide-c0	1	NA	NA
+cpd00450[c0]	Methyl sulfide-c0	1	NA	NA
+cpd00450[e0]	Methyl sulfide-e0	2	NA	NA
+cpd00453[c0]	1,2-Propanediol-c0	1	NA	NA
+cpd00453[e0]	1,2-Propanediol-e0	2	NA	NA
+cpd00475[c0]	Ribose 1-phosphate-c0	1	NA	NA
+cpd00480[c0]	2-Dehydro-D-gluconate-c0	1	NA	NA
+cpd00481[c0]	Isobutyryl-CoA-c0	1	NA	NA
+cpd00482[c0]	2-Phospho-D-glycerate-c0	1	NA	NA
+cpd00498[c0]	2-Aceto-2-hydroxybutanoate-c0	1	NA	NA
+cpd00504[c0]	LL-2,6-Diaminopimelate-c0	1	NA	NA
+cpd00508[c0]	3MOP-c0	1	NA	NA
+cpd00509[c0]	deoxyribose-1-phosphate-c0	1	NA	NA
+cpd00519[c0]	D-methylmalonyl-CoA-c0	1	NA	NA
+cpd00523[c0]	Trehalose 6-phosphate-c0	1	NA	NA
+cpd00528[c0]	N2-c0	1	NA	NA
+cpd00528[e0]	N2-e0	2	NA	NA
+cpd00540[c0]	BET-c0	1	NA	NA
+cpd00540[e0]	BET-e0	2	NA	NA
+cpd00551[c0]	DTYL-c0	1	NA	NA
+cpd00557[c0]	Siroheme	1	NA	NA
+cpd00588[c0]	Sorbitol-c0	1	NA	NA
+cpd00638[c0]	Deamido-NAD-c0	1	NA	NA
+cpd00646[c0]	PNP-c0	1	NA	NA
+cpd00650[c0]	Crotonyl-CoA-c0	1	NA	NA
+cpd00658[c0]	Isochorismate-c0	1	NA	NA
+cpd00659[c0]	Nitrous oxide-c0	1	NA	NA
+cpd00659[e0]	Nitrous oxide-e0	2	NA	NA
+cpd00668[c0]	ALCTT-c0	1	NA	NA
+cpd00693[c0]	D-Lactaldehyde-c0	1	NA	NA
+cpd00709[c0]	beta D-Galactose-c0	1	NA	NA
+cpd00722[c0]	O-Acetyl-L-serine-c0	1	NA	NA
+cpd00724[c0]	alpha-D-Galactose-c0	1	NA	NA
+cpd00751[c0]	L-Fucose-c0	1	NA	NA
+cpd00751[e0]	L-Fucose-e0	2	NA	NA
+cpd00760[c0]	2-Methylbutyryl-CoA-c0	1	NA	NA
+cpd00793[c0]	Thiamine phosphate-c0	1	NA	NA
+cpd00794[c0]	TRHL-c0	1	NA	NA
+cpd00794[e0]	TRHL-e0	2	NA	NA
+cpd00802[c0]	D-fructose-1-phosphate-c0	1	NA	NA
+cpd00807[c0]	L-histidinol-phosphate-c0	1	NA	NA
+cpd00811[c0]	(CH3)3NO-c0	1	NA	NA
+cpd00811[e0]	(CH3)3NO-e0	2	NA	NA
+cpd00859[c0]	Pseudouridine 5'-phosphate-c0	1	NA	NA
+cpd00860[c0]	S-Succinyldihydrolipoamide-c0	1	NA	NA
+cpd00863[c0]	beta-D-Glucose 6-phosphate-c0	1	NA	NA
+cpd00895[c0]	H4MPT-c0	1	NA	NA
+cpd00911[c0]	6-phospho-D-glucono-1-5-lactone-c0	1	NA	NA
+cpd00930[c0]	imidazole acetol-phosphate-c0	1	NA	NA
+cpd00932[c0]	5-O--1-Carboxyvinyl-3-phosphoshikimate-c0	1	NA	NA
+cpd00971[c0]	Na+-c0	1	NA	NA
+cpd00971[e0]	Na+-e0	2	NA	NA
+cpd01015[c0]	Cyanate-c0	1	NA	NA
+cpd01015[e0]	Cyanate-e0	2	NA	NA
+cpd01024[c0]	Methane-c0	1	NA	NA
+cpd01024[e0]	Methane-e0	2	NA	NA
+cpd01029[c0]	Base Q-c0	1	NA	NA
+cpd01042[c0]	cpd01042[c0]	1	NA	NA
+cpd01078[c0]	Selenide-c0	1	NA	NA
+cpd01171[c0]	Dulcose-c0	1	NA	NA
+cpd01197[c0]	Nebularine-c0	1	NA	NA
+cpd01217[c0]	Xanthosine-c0	1	NA	NA
+cpd01399[c0]	Maltotetraose-c0	1	NA	NA
+cpd01399[e0]	Maltotetraose-e0	2	NA	NA
+cpd01422[c0]	beta-D-Xylose-c0	1	NA	NA
+cpd01487[c0]	alpha-D-Xylose-c0	1	NA	NA
+cpd01608[c0]	L-Selenocysteine-c0	1	NA	NA
+cpd01618[c0]	1,3-Propanediol-c0	1	NA	NA
+cpd01618[e0]	1,3-Propanediol-e0	2	NA	NA
+cpd01629[c0]	beta-L-Arabinose-c0	1	NA	NA
+cpd01698[c0]	alpha-L-Arabinose-c0	1	NA	NA
+cpd01793[c0]	2,5-diketo-D-gluconate-c0	1	NA	NA
+cpd01800[c0]	2-trans-Hexadecenal-c0	1	NA	NA
+cpd01861[c0]	(R)-1,2-Propanediol-c0	1	NA	NA
+cpd01861[e0]	(R)-1,2-Propanediol-e0	2	NA	NA
+cpd01882[c0]	Isovaleryl-CoA-c0	1	NA	NA
+cpd01981[c0]	5-Methylthio-D-ribose-c0	1	NA	NA
+cpd01981[e0]	5-Methylthio-D-ribose-e0	2	NA	NA
+cpd01997[c0]	Dimethylbenzimidazole	1	NA	NA
+cpd02016[c0]	N-Ribosylnicotinamide-c0	1	NA	NA
+cpd02089[c0]	5-Oxopentanoate-c0	1	NA	NA
+cpd02122[c0]	2-Dehydro-D-galactonate-c0	1	NA	NA
+cpd02132[c0]	3-Phospho-D-erythronate-c0	1	NA	NA
+cpd02135[c0]	4-Nitrophenyl phosphate-c0	1	NA	NA
+cpd02229[c0]	Bactoprenyl diphosphate	1	NA	NA
+cpd02465[c0]	tetrahydrodipicolinate-c0	1	NA	NA
+cpd02597[c0]	cis-2-Methylaconitate-c0	1	NA	NA
+cpd02605[c0]	2-isopropyl-3-oxosuccinate-c0	1	NA	NA
+cpd02645[c0]	Phosphoenol-4-deoxy-3-tetrulosonate-c0	1	NA	NA
+cpd02679[c0]	5,10-Methylenetetrahydromethanopterin-c0	1	NA	NA
+cpd02693[c0]	3-Isopropylmalate-c0	1	NA	NA
+cpd02799[c0]	Methylisocitrate-c0	1	NA	NA
+cpd02812[c0]	D-erythro-Isocitric acid-c0	1	NA	NA
+cpd02857[c0]	DAHP-c0	1	NA	NA
+cpd03049[c0]	2-Hydroxyethyl-ThPP-c0	1	NA	NA
+cpd03124[c0]	Hexanoyl-CoA-c0	1	NA	NA
+cpd03125[c0]	(2E)-Hexenoyl-CoA-c0	1	NA	NA
+cpd03187[c0]	Oxalosuccinate-c0	1	NA	NA
+cpd03189[c0]	3-Carboxy-1-hydroxypropyl-ThPP-c0	1	NA	NA
+cpd03279[c0]	Deoxyinosine-c0	1	NA	NA
+cpd03389[c0]	Selenocysteine-c0	1	NA	NA
+cpd03393[c0]	Se-Adenosylselenohomocysteine-c0	1	NA	NA
+cpd03397[c0]	Selenohomocysteine-c0	1	NA	NA
+cpd03422[c0]	Cobinamide	1	NA	NA
+cpd03450[c0]	Succinatesemialdehyde-thiamindiphosphateanion-c0	1	NA	NA
+cpd03451[c0]	SHCHC-c0	1	NA	NA
+cpd03456[c0]	S-sulfocysteine-c0	1	NA	NA
+cpd03471[c0]	Nicotinate D-ribonucleoside-c0	1	NA	NA
+cpd03571[c0]	Lactaldehyde-c0	1	NA	NA
+cpd03593[c0]	D-erythro-3-Methylmalate-c0	1	NA	NA
+cpd03662[c0]	n-Butanol-c0	1	NA	NA
+cpd03662[e0]	n-Butanol-e0	2	NA	NA
+cpd03672[c0]	S-Glutaryldihydrolipoamide-c0	1	NA	NA
+cpd07403[c0]	2-(beta-D-Glucosyl)-sn-glycerol 3-phosphate-c0	1	NA	NA
+cpd08021[c0]	DMSO-c0	1	NA	NA
+cpd08021[e0]	DMSO-e0	2	NA	NA
+cpd10515[c0]	Fe2+-c0	1	NA	NA
+cpd10515[e0]	Fe2+-e0	2	NA	NA
+cpd10516[c0]	fe3-c0	1	NA	NA
+cpd10516[e0]	fe3-e0	2	NA	NA
+cpd11415[c0]	carboxybiotin-c0	1	NA	NA
+cpd11416[c0]	Biomass	1	NA	NA
+cpd11420[c0]	trdox-c0	1	NA	NA
+cpd11421[c0]	trdrd-c0	1	NA	NA
+cpd11464[c0]	Butyryl-ACP-c0	1	NA	NA
+cpd11465[c0]	But-2-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd11466[c0]	Myristoyl-ACP-c0	1	NA	NA
+cpd11467[c0]	(2E)-Tetradecenoyl-[acp]-c0	1	NA	NA
+cpd11468[c0]	Dodecanoyl-ACP-c0	1	NA	NA
+cpd11469[c0]	(2E)-Dodecenoyl-[acp]-c0	1	NA	NA
+cpd11470[c0]	Octanoyl-ACP-c0	1	NA	NA
+cpd11471[c0]	(2E)-Octenoyl-[acp]-c0	1	NA	NA
+cpd11472[c0]	Hexanoyl-ACP-c0	1	NA	NA
+cpd11473[c0]	(2E)-Hexenoyl-[acp]-c0	1	NA	NA
+cpd11474[c0]	Decanoyl-ACP-c0	1	NA	NA
+cpd11475[c0]	(2E)-Decenoyl-[acp]-c0	1	NA	NA
+cpd11476[c0]	hexadecanoyl-acp-c0	1	NA	NA
+cpd11477[c0]	(2E)-Hexadecenoyl-[acp]-c0	1	NA	NA
+cpd11478[c0]	(R)-3-Hydroxybutanoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd11479[c0]	D-3-Hydroxyhexanoyl-[acp]-c0	1	NA	NA
+cpd11480[c0]	D-3-Hydroxydodecanoyl-[acp]-c0	1	NA	NA
+cpd11481[c0]	R-3-hydroxypalmitoyl-acyl-carrierprotein--c0	1	NA	NA
+cpd11482[c0]	(R)-3-Hydroxydecanoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd11483[c0]	(R)-3-Hydroxyoctanoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd11484[c0]	HMA-c0	1	NA	NA
+cpd11485[c0]	3-oxohexadecanoyl-acp-c0	1	NA	NA
+cpd11486[c0]	3-Oxohexanoyl-[acp]-c0	1	NA	NA
+cpd11487[c0]	3-oxodecanoyl-acp-c0	1	NA	NA
+cpd11488[c0]	Acetoacetyl-ACP-c0	1	NA	NA
+cpd11489[c0]	3-oxododecanoyl-acp-c0	1	NA	NA
+cpd11490[c0]	3-oxooctanoyl-acp-c0	1	NA	NA
+cpd11491[c0]	3-oxotetradecanoyl-acp-c0	1	NA	NA
+cpd11492[c0]	Malonyl-acyl-carrierprotein--c0	1	NA	NA
+cpd11493[c0]	ACP-c0	1	NA	NA
+cpd11494[c0]	Acetyl-ACP-c0	1	NA	NA
+cpd11574[c0]	Molybdate-c0	1	NA	NA
+cpd11574[e0]	Molybdate-e0	2	NA	NA
+cpd11628[c0]	Acyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd11632[c0]	hn-c0	1	NA	NA
+cpd11632[e0]	hn-e0	2	NA	NA
+cpd11640[c0]	H2-c0	1	NA	NA
+cpd11640[e0]	H2-e0	2	NA	NA
+cpd11728[c0]	trans-2,3-Dehydroacyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd11734[c0]	Alditol-c0	1	NA	NA
+cpd11825[c0]	Octadecenoyl-ACP-c0	1	NA	NA
+cpd11854[c0]	Aldose-c0	1	NA	NA
+cpd11910[c0]	tRNA(Cys)-c0	1	NA	NA
+cpd11911[c0]	tRNA(Gln)-c0	1	NA	NA
+cpd11917[c0]	tRNA(Lys)-c0	1	NA	NA
+cpd11922[c0]	tRNA(Thr)-c0	1	NA	NA
+cpd11923[c0]	tRNA(Trp)-c0	1	NA	NA
+cpd11976[c0]	Maltodextrin-c0	1	NA	NA
+cpd11976[e0]	Maltodextrin-e0	2	NA	NA
+cpd11985[c0]	tRNA guanine-c0	1	NA	NA
+cpd11986[c0]	tRNA queuine-c0	1	NA	NA
+cpd12005[c0]	Lipoylprotein-c0	1	NA	NA
+cpd12060[c0]	Gln-tRNA(Gln)-c0	1	NA	NA
+cpd12225[c0]	Dihydrolipolprotein-c0	1	NA	NA
+cpd12229[c0]	L-Threonyl-tRNA(Thr)-c0	1	NA	NA
+cpd12255[c0]	L-Cysteinyl-tRNA(Cys)-c0	1	NA	NA
+cpd12336[c0]	L-Tryptophanyl-tRNA(Trp)-c0	1	NA	NA
+cpd12370[c0]	apo-ACP	1	NA	NA
+cpd12458[c0]	Stearoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd12543[c0]	Carboxybiotin-carboxyl-carrier protein-c0	1	NA	NA
+cpd12848[c0]	Holo-[carboxylase]-c0	1	NA	NA
+cpd14940[c0]	(2E)-Octadecenoyl-[acp]-c0	1	NA	NA
+cpd15239[c0]	Hexadecenoyl-ACP-c0	1	NA	NA
+cpd15249[c0]	L-Lysine-tRNA (Lys)-c0	1	NA	NA
+cpd15277[c0]	Palmitoyl-ACP-c0	1	NA	NA
+cpd15294[c0]	Tetradecenoyl-ACP-c0	1	NA	NA
+cpd15351[c0]	2-Dehydro-L-gulonate-c0	1	NA	NA
+cpd15366[c0]	(R)-3-hydroxy-cis-dodec-5-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15368[c0]	(R)-3-hydroxy-cis-myristol-7-eoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15369[c0]	(R)-3-hydroxy-cis-palm-9-eoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15370[c0]	(R)-3-hydroxy-cis-vacc-11-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15371[c0]	R-3-Hydroxyoctadecanoyl-acyl-carrierprotein--c0	1	NA	NA
+cpd15373[c0]	3-oxo-cis-dodec-5-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15374[c0]	3-oxo-cis-myristol-7-eoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15375[c0]	3-oxo-cis-palm-9-eoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15376[c0]	3-oxo-cis-vacc-11-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15377[c0]	3-Oxooctadecanoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15415[c0]	cis-dodec-5-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15416[c0]	cis-dec-3-enoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15432[c0]	core oligosaccharide lipid A	1	NA	NA
+cpd15494[c0]	Maltoheptaose-c0	1	NA	NA
+cpd15494[e0]	Maltoheptaose-e0	2	NA	NA
+cpd15533[c0]	phosphatidylethanolamine dioctadecanoyl	1	NA	NA
+cpd15540[c0]	Phosphatidylglycerol dioctadecanoyl	1	NA	NA
+cpd15568[c0]	trans-3-cis-11-vacceoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15569[c0]	trans-3-cis-5-dodecenoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15570[c0]	trans-3-cis-7-myristoleoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15571[c0]	trans-3-cis-9-palmitoleoyl-[acyl-carrier protein]-c0	1	NA	NA
+cpd15665[c0]	Peptidoglycan polymer (n subunits)	1	NA	NA
+cpd15666[c0]	Peptidoglycan polymer (n-1 subunits)	1	NA	NA
+cpd15695[c0]	Diisoheptadecanoylphosphatidylethanolamine	1	NA	NA
+cpd15696[c0]	Dianteisoheptadecanoylphosphatidylethanolamine	1	NA	NA
+cpd15722[c0]	Diisoheptadecanoylphosphatidylglycerol	1	NA	NA
+cpd15723[c0]	Dianteisoheptadecanoylphosphatidylglycerol	1	NA	NA
+cpd15793[c0]	Stearoylcardiolipin (B. subtilis)	1	NA	NA
+cpd15794[c0]	Isoheptadecanoylcardiolipin (B. subtilis)	1	NA	NA
+cpd15795[c0]	Anteisoheptadecanoylcardiolipin (B. subtilis)	1	NA	NA
+cpd17010[c0]	Fatty Acid (n-C5-c0	1	NA	NA
+cpd17011[c0]	Iso-C14-c0	1	NA	NA
+cpd17012[c0]	iso-C15-c0	1	NA	NA
+cpd17013[c0]	Iso-C16-c0	1	NA	NA
+cpd17014[c0]	Iso-C7-c0	1	NA	NA
+cpd17015[c0]	Iso-C6-c0	1	NA	NA
+cpd17018[c0]	heptadecanoyl-ACP (n-C17-c0	1	NA	NA
+cpd17029[c0]	pentadecanoyl-ACP (n-C15-c0	1	NA	NA
+cpd18009[c0]	Ethylmalonyl-CoA-c0	1	NA	NA
+cpd19001[c0]	alpha-D-Glucose-c0	1	NA	NA
+cpd19006[c0]	alpha-D-Glucose 6-phosphate-c0	1	NA	NA
+cpd19008[c0]	(R)-Acetoin-c0	1	NA	NA
+cpd19024[c0]	(S)-Propane-1,2-diol-c0	1	NA	NA
+cpd19028[c0]	alpha-D-Ribose 5-phosphate-c0	1	NA	NA
+cpd19036[c0]	beta-D-Fructose 1,6-bisphosphate-c0	1	NA	NA
+cpd19047[c0]	(S)-2-Acetolactate-c0	1	NA	NA
+cpd19171[c0]	Enzyme N6-(lipoyl)lysine-c0	1	NA	NA
+cpd19172[c0]	Enzyme N6-(dihydrolipoyl)lysine-c0	1	NA	NA
+cpd23430[c0]	isocholate-c0	1	NA	NA
+cpd23430[e0]	isocholate-e0	2	NA	NA
+cpd23431[c0]	3-dehydrocholate-c0	1	NA	NA
+cpd23431[e0]	3-dehydrocholate-e0	2	NA	NA

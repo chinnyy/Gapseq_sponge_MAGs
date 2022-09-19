@@ -119,6 +119,8 @@ cd /srv/scratch/z5434493/Pet_ficiformis
 ##############     Rscript $dir/src/predict_medium.R "$@"	##############
 # load prediction rules
 #   medium_rules <- fread(paste0(script.dir,"/../dat/medium_prediction_rules.tsv"), header=T, quote = F)
+# Note that the output of this file will change from "Actino_5_Burgsdorf_2021-medium.csv" to "Actino_5_Burgsdorf_2021_full-medium.csv"
+
 
 /srv/scratch/z5434493/Softwares/gapseq/gapseq_20220825/gapseq medium -m Actino_5_Burgsdorf_2021-draft.RDS -p Actino_5_Burgsdorf_2021-all-Pathways.tbl
 

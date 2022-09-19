@@ -1,0 +1,7 @@
+		sol$fluxes	cpd00048[c0]	cpd00048[e0]
+		met_name	Sulfate[c0]	Sulfate[e0]
+rxn00359_c0	3'-phosphoadenylyl-sulfate sulfohydrolase	-3.78653234506086e-29	1	0
+rxn00379_c0	ATP:sulfate adenylyltransferase	-3.78653234506086e-29	-1	0
+rxn05651_c0	sulfate transport in via proton symport	1000	1	-1
+rxn12811_c0	sulfate transport via sodium symport	-999.996161820952	1	-1
+EX_cpd00048_e0	Exchange of Sulfate	-0.00383817904760755	0	-1

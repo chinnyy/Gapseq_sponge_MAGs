@@ -10,9 +10,9 @@ library(dplyr)
 setwd= setwd("C:/Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts")
 
 # Import the gap-filled modified object model (gfM): 
-gfM_dir = 'AqS4/'
+gfM_dir = 'AqS1/'
 
-model_id = 'AqS4' 
+model_id = 'AqS1' 
 
 # Create new folder where the output will be stored
 new_folder_nm = paste('/07_gf_model/',gfM_dir,sep = '')
@@ -30,9 +30,9 @@ outfile_050_2  = paste(setwd, new_folder_nm,'/050_2_model_',model_id,'_gfM_Smat_
 outfile_050_3 = paste(setwd, new_folder_nm,'/050_model_',model_id,'_gfM_Smat_fluxes_ETC_complexes.tsv',sep = "")
 
 # Load the model RDS file
-model_gfm <- readRDS(paste(setwd,"/Input_files/AqS4/AqS4.RDS",sep = ""))
+model_gfm <- readRDS(paste(setwd,"/Input_files/AqS1/AqS1.RDS",sep = ""))
 
-## Warning: In readRDS(paste(setwd, "/Input_files/AqS4/AqS4.RDS", sep = "")) : strings not representable in native encoding will be translated to UTF-8
+## Warning: In readRDS(paste(setwd, "/Input_files/AqS1/AqS1.RDS", sep = "")) : strings not representable in native encoding will be translated to UTF-8
 
 #### STEP 1.2: EXTRACT KEGG REACTION IDS FROM .RDS FILE ####
 
@@ -108,7 +108,7 @@ write.csv(cbind_t_model_gfm_Smat, quote = FALSE,file = outfile_050)
 
 gapseq_version = 'gapseq_v20220329'
 input_dir = paste(setwd,'/07_gf_model/',gfM_dir,sep = '')
-model_id = 'AqS4'
+model_id = 'AqS1'
 mycmd1 = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts/Python_scripts/Assign_names_2_ID_of_active_rxn_in_Smax_arg.py'
 
 # Please open "Assign_names_2_ID_of_active_rxn_in_Smax_arg.py" and modify the full path of Dict input files from line 78 to line 80.  
@@ -120,8 +120,8 @@ system(paste(mycmd1,
 
 
 # output files:
-# 051_model_AqS4_gfM_Smat_fluxes.flux_lt0.csv
-# 052_model_AqS4_gfM_Smat_fluxes.flux_lt0.annotate.tsv
+# 051_model_AqS1_gfM_Smat_fluxes.flux_lt0.csv
+# 052_model_AqS1_gfM_Smat_fluxes.flux_lt0.annotate.tsv
 
 
 ############################################ Run the following script once to get the "seed_reactions_corrected.formatted_reat_add.status.tsv" for the related 043 output file:####################################################
@@ -244,7 +244,7 @@ system(paste(mycmd4,
 
 
 # output files:
-# 050_model_AqS4_gfM_Smat_fluxes_ETC_complexes.tsv
+# 050_model_AqS1_gfM_Smat_fluxes_ETC_complexes.tsv
 
 ### New input by faith,
 ### This additional part is to generate the "XXXX_completely_filled_in_reactions.txt"
@@ -253,7 +253,7 @@ system(paste(mycmd4,
 
 ## Generating files based on draft model
 
-draft_id <- "draft_AqS4"
+draft_id <- "draft_AqS1"
 
 # Create a new file to store 053_model
 dir.create(paste(setwd,'/07_gf_model/',model_id,'/draft',sep = ''), showWarnings = TRUE, recursive = TRUE)
@@ -271,9 +271,9 @@ outfile_050_2  = paste(setwd, draft_folder,'/050_2_model_',draft_id,'_gfM_Smat_f
 outfile_050_3 = paste(setwd, draft_folder,'/050_model_',draft_id,'_gfM_Smat_fluxes_ETC_complexes.tsv',sep = "")
 
 # Load the model RDS file
-draft_gfm <- readRDS(paste(setwd,"/Input_files/AqS4/AqS4-draft.RDS",sep = ""))
+draft_gfm <- readRDS(paste(setwd,"/Input_files/AqS1/AqS1-draft.RDS",sep = ""))
 
-## Warning message: In readRDS(paste(setwd, "/Input_files/AqS4/AqS4-draft.RDS", sep = "")) :strings not representable in native encoding will be translated to UTF-8
+## Warning message: In readRDS(paste(setwd, "/Input_files/AqS1/AqS1-draft.RDS", sep = "")) :strings not representable in native encoding will be translated to UTF-8
 
 #### STEP 1.2: EXTRACT KEGG REACTION IDS FROM .RDS FILE ####
 
@@ -352,7 +352,7 @@ write.csv(cbind_t_draft_gfm_Smat, quote = FALSE,file = outfile_050)
 
 filled_rxn<-anti_join(df_model_gfm_list,df_draft_gfm_list, by="react_id")
 
-write.table(filled_rxn, file = paste(setwd,new_folder_nm,model_id,"_completely_filled_in_reactions.txt", sep = ""), sep = "")
+write.table(filled_rxn, file = paste(setwd,new_folder_nm,model_id,"_completely_filled_in_reactions.txt", sep = ""),quote = F,row.names = F,sep='\t')
 
 
 

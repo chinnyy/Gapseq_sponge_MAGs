@@ -1,0 +1,4 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn00006_c0	hydrogen-peroxide:hydrogen-peroxide oxidoreductase	-5.03861237382765e-26	1	0
+rxn01438_c0	L-Kynurenine,NADPH:oxygen oxidoreductase (3-hydroxylating)	-5.03861237382765e-26	-1	0

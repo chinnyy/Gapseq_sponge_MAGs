@@ -1,0 +1,12 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn00114_c0	ATP:carbamate phosphotransferase	-2.01195772607533e-14	-1	0
+rxn00130_c0	AMP aminohydrolase	-6.90851439183961e-14	1	0
+rxn00182_c0	L-glutamate:NAD+ oxidoreductase (deaminating)	-1000	1	0
+rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)	1000	1	0
+rxn00654_c0	N-Carbamoyl-beta-alanine amidohydrolase	8.07793566946316e-28	1	0
+rxn00804_c0	L-leucine:NAD+ oxidoreductase (deaminating)	-1000	1	0
+rxn01045_c0	L-Valine:NAD+ oxidoreductase(deaminating)	-2.52435489670724e-28	1	0
+rxn01573_c0	L-Isoleucine:NAD+ oxidoreductase(deaminating)	1000	1	0
+rxn05466_c0	TRANS-RXN-173.ce	1.41431326783403e-13	1	-1
+EX_cpd00013_e0	Exchange of Ammonium	-1.41431326783403e-13	0	-1

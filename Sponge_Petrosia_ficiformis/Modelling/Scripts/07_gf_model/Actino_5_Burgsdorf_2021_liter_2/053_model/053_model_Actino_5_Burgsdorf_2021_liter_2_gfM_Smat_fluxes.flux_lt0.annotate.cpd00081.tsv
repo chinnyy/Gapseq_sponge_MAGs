@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00081[c0]
+		met_name	Sulfite[c0]
+rxn05733_c0	O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)	2.28172777818007e-13	1
+rxn05902_c0	sulphite reductase	1.34840028881492e-13	1
+rxn09069_c0	phosphoadenylyl-sulfate reductase (glutaredoxin)	-3.63012806699499e-13	1

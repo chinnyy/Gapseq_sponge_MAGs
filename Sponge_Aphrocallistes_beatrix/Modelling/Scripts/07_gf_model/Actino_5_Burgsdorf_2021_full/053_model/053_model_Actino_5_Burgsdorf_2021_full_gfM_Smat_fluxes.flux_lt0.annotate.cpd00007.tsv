@@ -1,0 +1,11 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn00006_c0	hydrogen-peroxide:hydrogen-peroxide oxidoreductase	0.00384065372698992	1	0
+rxn00333_c0	Glycolate:oxygen 2-oxidoreductase	0.00460878447238545	-1	0
+rxn00338_c0	L-aspartate:oxygen oxidoreductase	0.00307252298159438	-1	0
+rxn01923_c0	2-Methylpropanoyl-CoA:oxygen 2,3-oxidoreductase	0.518968690608047	-1	0
+rxn02268_c0	(S)-2-methylbutanoyl-CoA:oxygen 2,3-oxidoreductase	11.973350001938	-1	0
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)	0.00153626149079514	-1	0
+rxn02304_c0	protoporphyrinogen-IX:oxygen oxidoreductase	0.000768130745397568	-3	0
+rxn05468_c0	TRANS-RXNAVI-26568.ce	12.5	1	-1
+EX_cpd00007_e0	Exchange of O2	-12.5	0	-1

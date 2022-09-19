@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00042[c0]
+		met_name	GSH[c0]
+rxn00070_c0	glutathione:NAD+ oxidoreductase	-1000	-2
+rxn00086_c0	glutathione:NADP+ oxidoreductase	1000	-2
+rxn08670_c0	glutaredoxin reductase	-3.63012806699499e-13	-2

@@ -1,0 +1,12 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn00114_c0	ATP:carbamate phosphotransferase	5.41896644788921e-14	-1	0
+rxn00130_c0	AMP aminohydrolase	2.04293923624518e-15	1	0
+rxn00182_c0	L-glutamate:NAD+ oxidoreductase (deaminating)	-1000	1	0
+rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)	1000	1	0
+rxn00804_c0	L-leucine:NAD+ oxidoreductase (deaminating)	-1000	1	0
+rxn00916_c0	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	-7.10542735756182e-15	-1	0
+rxn00926_c0	Adenine aminohydrolase	2.25206489425483e-14	1	0
+rxn00949_c0	L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)	2.25206489425483e-14	1	0
+rxn01573_c0	L-Isoleucine:NAD+ oxidoreductase(deaminating)	1000	1	0
+rxn05466_c0	TRANS-RXN-173.ce	-1.13091099372484e-26	1	-1

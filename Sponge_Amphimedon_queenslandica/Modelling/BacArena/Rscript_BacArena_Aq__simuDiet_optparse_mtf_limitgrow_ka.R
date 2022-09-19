@@ -14,7 +14,10 @@ library(BacArena)
 library(parallel)
 ######################## argument ########################
 option_list = list(
-  optparse::make_option(c("-o", "--otu_name"),                 type="character",      default='Aq',       help="OTU_name, defalt: Aq"),
+  optparse::make_option(c("-o", "--otu_name"),                 
+                        type="character",      
+                        default=NULL,       
+                        help="OTU_name, defalt: Aq"),
   
   # Navigate to the file containing the gapfilled RDS output
   optparse::make_option(c("-m", "--infile_my_model"),          

@@ -1,0 +1,6 @@
+		sol$fluxes	cpd00048[c0]	cpd00048[e0]
+		met_name	Sulfate[c0]	Sulfate[e0]
+rxn00379_c0	ATP:sulfate adenylyltransferase	-3.63012806699499e-13	-1	0
+rxn05651_c0	sulfate transport in via proton symport	-2.30695194118646e-13	1	-1
+rxn12811_c0	sulfate transport via sodium symport	-1.32317612580946e-13	1	-1
+EX_cpd00048_e0	Exchange of Sulfate	3.63012806699592e-13	0	-1

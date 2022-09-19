@@ -1,0 +1,4 @@
+		sol$fluxes	cpd00048[c0]	cpd00048[e0]
+		met_name	Sulfate[c0]	Sulfate[e0]
+rxn05651_c0	sulfate transport in via proton symport	12.4999999999997	1	-1
+rxn12811_c0	sulfate transport via sodium symport	-12.4999999999997	1	-1

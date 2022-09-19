@@ -1,0 +1,7 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)	0.0052716138242594	-1	0
+rxn12220_c0	coproporphyrinogen oxidase	1.61558713389263e-27	-2	0
+rxn05468_c0	TRANS-RXNAVI-26568.ce	12.5	1	-1
+EX_cpd00007_e0	Exchange of O2	-12.5	0	-1
+rxn10043_c0	cytochrome-c oxidase (H+/e- = 2)	24.9894567723515	-0.5	0

@@ -3,17 +3,17 @@
 #### IMPORTANT: ModelSEED reaction id must be in the 1st column with header start with 'react_id'.
 
 # Set to where you want the script to run on 
-dir_out = setwd('/Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts')
+dir_out = setwd('/Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Aphrocallistes_beatrix/Modelling/Scripts')
 
 gapseq_version  = 'gapseq_v20220329'
 
 # Import the gap-filled modified object model (gfM): 
 # Change accordingly to the name of the object model!
-gfM_dir = 'AqS4/'
-model_id = 'AqS4' 
+gfM_dir = 'AQ2/'
+model_id = 'AQ2' 
 
 # Navigate to the python code "Get_formatted_equations_n_flux_of_MS_react_in_gfModel.py"
-python_code  = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Amphimedon_queenslandica/Modelling/Scripts/Python_scripts/Get_formatted_equations_n_flux_of_MS_react_in_gfModel.py'
+python_code  = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Aphrocallistes_beatrix/Modelling/Scripts/Python_scripts/Get_formatted_equations_n_flux_of_MS_react_in_gfModel.py'
 
 # Navigate to where the seed reaction tsv "seed_reactions_corrected.formatted_reat_add.tsv"
 dict_seed_reactions_corrected_tsv   = paste('/Users/chiny/Bioinfo/software/gapseq/',gapseq_version,'/Shan_output_files/seed_reactions_corrected.formatted_reat_add.tsv',sep = '')

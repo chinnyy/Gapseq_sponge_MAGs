@@ -1,0 +1,4 @@
+		sol$fluxes	cpd00239[c0]	cpd00239[e0]
+		met_name	H2S[c0]	H2S[e0]
+rxn00952_c0	O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase	1000	-1	0
+rxn05909_c0	L-serine hydro-lyase (adding hydrogen sulfide, L-cysteine-forming)	-1000	-1	0

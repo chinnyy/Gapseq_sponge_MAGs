@@ -1,0 +1,6 @@
+		sol$fluxes	cpd00048[c0]	cpd00048[e0]
+		met_name	Sulfate[c0]	Sulfate[e0]
+rxn00378_c0	Sulfite:ferricytochrome-c oxidoreductase	-1.16356983520099e-29	1	0
+rxn05651_c0	sulfate transport in via proton symport	-7.65151495842402	1	-1
+rxn12811_c0	sulfate transport via sodium symport	7.66018637567395	1	-1
+EX_cpd00048_e0	Exchange of Sulfate	-0.00867141724993056	0	-1

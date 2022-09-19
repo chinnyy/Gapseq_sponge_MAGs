@@ -9,8 +9,8 @@ gapseq_version  = 'gapseq_v20220329'
 
 # Import the gap-filled modified object model (gfM): 
 # Change accordingly to the name of the object model!
-gfM_dir = 'bin.2/'
-model_id = 'bin.2' 
+gfM_dir = 'bin.1/'
+model_id = 'bin.1' 
 
 # Navigate to the python code "Get_formatted_equations_n_flux_of_MS_react_in_gfModel.py"
 python_code  = 'py /Users/chiny/Desktop/UNSW/Gapseq_sponge_MAGs/Sponge_Cymbastela_concentrica/Modelling/Scripts/Python_scripts/Get_formatted_equations_n_flux_of_MS_react_in_gfModel.py'

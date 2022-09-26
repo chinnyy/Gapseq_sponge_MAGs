@@ -1,0 +1,9 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn00187_c0	L-Glutamate:ammonia ligase (ADP-forming)	1.99999999999946	-1	0
+rxn00908_c0	glycine synthase	0.999999999999726	1	0
+rxn00916_c0	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	-2.16617645489646e-15	-1	0
+rxn03379_c0	Selenocystathionine L-homocysteine-lyase (deaminating)	0.999999999999751	1	0
+rxn05466_c0	TRANS-RXN-173.ce	-1.75514579057003e-14	1	-1
+rxn15490_c0	3-Ureidoisobutyrate amidohydrolase	-8.25148506861178e-28	1	0
+EX_cpd00013_e0	Exchange of Ammonium	1.75514579057003e-14	0	-1

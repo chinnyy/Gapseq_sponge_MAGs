@@ -1,0 +1,11 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn00032_c0	Choline:oxygen 1-oxidoreductase	-7.69928243495708e-28	-1	0
+rxn00058_c0	Ferrocytochrome-c:oxygen oxidoreductase	12.499227518153	-1	0
+rxn01715_c0	Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing)	6.7652711231754e-26	-1	0
+rxn01923_c0	2-Methylpropanoyl-CoA:oxygen 2,3-oxidoreductase	-1.89326617253043e-28	-1	0
+rxn02268_c0	(S)-2-methylbutanoyl-CoA:oxygen 2,3-oxidoreductase	-2.34765005393773e-27	-1	0
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)	0.000772481846968037	-1	0
+rxn12220_c0	coproporphyrinogen oxidase	2.107836e-27	-2	0
+rxn05468_c0	TRANS-RXNAVI-26568.ce	12.5	1	-1
+EX_cpd00007_e0	Exchange of O2	-12.5	0	-1

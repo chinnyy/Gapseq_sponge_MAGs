@@ -1,0 +1,4 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn05466_c0	TRANS-RXN-173.ce	-5.04870979341448e-29	1	-1
+EX_cpd00013_e0	Exchange of Ammonium	5.04870979341448e-29	0	-1

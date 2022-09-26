@@ -1,0 +1,4 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn00058_c0	Ferrocytochrome-c:oxygen oxidoreductase	4.54383881407303e-28	-1	0
+rxn02398_c0	N,N-dimethylaniline,NADPH:oxygen oxidoreductase(N-oxide-forming)	-4.54383881407303e-28	-1	0

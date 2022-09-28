@@ -1,0 +1,11 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn00006_c0	hydrogen-peroxide:hydrogen-peroxide oxidoreductase	0.00260427269717784	1	0
+rxn01252_c0	Pyridoxine:oxygen oxidoreductase (deaminating)	2.64268403249039e-28	-1	0
+rxn01715_c0	Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing)	-1.81753552562921e-27	-1	0
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)	0.00520854539435569	-1	0
+rxn04701_c0	(4-hydroxyphenyl)ethan-1-one,NADPH:oxygen oxidoreductase (ester-forming)	1.81753552562921e-27	-1	0
+rxn05468_c0	TRANS-RXNAVI-26568.ce	12.5	1	-1
+EX_cpd00007_e0	Exchange of O2	-12.5	0	-1
+rxn10043_c0	cytochrome-c oxidase (H+/e- = 2)	24.9843743638169	-0.5	0
+rxn23045_c0	glycine oxidase	0.00520854539435568	-1	0

@@ -2,4 +2,4 @@
 		met_name	Cytochrome c oxidized[c0]	Cytochrome c oxidized[e0]
 rxn00378_c0	Sulfite:ferricytochrome-c oxidoreductase	-1.16356983520099e-29	-2	0
 rxn10044_c0	cytochrome-c reductase (menaquinol 7: 3 protons)	24.9894567723515	-2	0
-rxn10043_c0	cytochrome-c oxidase (H+/e- = 2)	24.9894567723515	2	0
+rxn10043_c0	cytochrome-c oxidase (H+/e- = 2)	24.98946	2	0

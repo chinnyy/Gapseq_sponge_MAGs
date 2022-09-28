@@ -15,7 +15,7 @@ rxn01137_c0	Adenosine aminohydrolase	-5.24267072236109e-20	1	0
 rxn01573_c0	L-Isoleucine:NAD+ oxidoreductase(deaminating)	990.88604556661	1	0
 rxn03374_c0	Selenocystathionine Lysteine-lyase (deaminating)	-1.25266164013499e-22	1	0
 rxn05466_c0	TRANS-RXN-173.ce	10	1	-1
-rxn31279_c0	glutamine synthetase, putative	-4.25584425158533e-21	-1	0
+rxn31279_c0	glutamine synthetase, putative	-4.255844e-21	-1	0
 EX_cpd00013_e0	Exchange of Ammonium	-10	0	-1
-rxn10506_c0	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	0.0105432276485188	1	0
-rxn15112_c0	Ribose-5-phosphate:ammonia ligase (ADP-forming)	0.248452071832813	-1	0
+rxn10506_c0	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	0.01054323	1	0
+rxn15112_c0	Ribose-5-phosphate:ammonia ligase (ADP-forming)	0.2484521	-1	0

@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00081[c0]
+		met_name	Sulfite[c0]
+rxn03923_c0	acetyl-phosphate:sulfite S-acetyltransferase (acyl-phosphate hydrolysing, 2-oxoethyl-forming)	5.32885367775776e-17	1
+rxn05733_c0	O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)	-5.3288536779602e-17	1
+rxn07450_c0	L-cysteate bisulfite-lyase (deaminating)	-1.26559173695903e-27	1

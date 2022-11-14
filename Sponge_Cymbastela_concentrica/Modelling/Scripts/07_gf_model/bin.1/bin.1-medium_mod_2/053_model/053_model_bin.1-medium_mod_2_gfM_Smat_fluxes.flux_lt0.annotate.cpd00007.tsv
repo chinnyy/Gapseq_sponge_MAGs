@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00007[c0]	cpd00007[e0]
+		met_name	O2[c0]	O2[e0]
+rxn01923_c0	2-Methylpropanoyl-CoA:oxygen 2,3-oxidoreductase	3.86541843558296e-29	-1	0
+rxn02268_c0	(S)-2-methylbutanoyl-CoA:oxygen 2,3-oxidoreductase	-3.86541843558296e-29	-1	0
+rxn12220_c0	coproporphyrinogen oxidase	2.01948391736579e-28	-2	0

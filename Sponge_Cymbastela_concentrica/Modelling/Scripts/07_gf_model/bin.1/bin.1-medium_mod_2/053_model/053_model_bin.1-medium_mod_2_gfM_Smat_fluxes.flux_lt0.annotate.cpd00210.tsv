@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00210[c0]	cpd00210[e0]
+		met_name	Taurine[c0]	Taurine[e0]
+rxn01233_c0	taurine:2-oxoglutarate aminotransferase	999.722621071476	-1	0
+rxn03924_c0	taurine:pyruvate aminotransferase	-999.722621071476	-1	0
+rxn12554_c0	Taurine transport via proton symport	-1.35052986973837e-27	1	-1

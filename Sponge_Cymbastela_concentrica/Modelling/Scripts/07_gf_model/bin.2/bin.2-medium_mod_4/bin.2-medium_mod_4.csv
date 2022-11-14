@@ -1,0 +1,22 @@
+compounds,name,maxFlux
+cpd00001,H2O,100
+cpd00971,Sodium,10
+cpd00205,K+,10
+cpd00099,Cl-,10
+cpd10515,Fe2+,10
+cpd10516,Fe3+,0.1
+cpd00009,Phosphate,10
+cpd00149,Cobalt,10
+cpd00254,Mg,10
+cpd00244,Nickel,1
+cpd00048,Sulfate,10
+cpd00239,H2S,1
+cpd00034,Zn2+,10
+cpd00058,Cu2+,10
+cpd00030,Mn2+,10
+cpd00063,Ca2+,10
+cpd00013,Ammonium,10
+cpd00027,D-Glucose,5
+cpd00084,L-Cysteine,0.1
+cpd00644,Pantothenic acid,0.025
+cpd00305,Thiamin,0.025

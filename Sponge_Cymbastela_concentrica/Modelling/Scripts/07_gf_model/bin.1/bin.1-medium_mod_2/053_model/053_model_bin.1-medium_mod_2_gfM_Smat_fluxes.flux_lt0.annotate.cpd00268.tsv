@@ -1,0 +1,5 @@
+		sol$fluxes	cpd00268[c0]	cpd00268[e0]
+		met_name	Thiosulfate[c0]	Thiosulfate[e0]
+rxn05176_c0	thiosulfate transport via ABC system	-5.3288536776312e-17	1	-1
+rxn05733_c0	O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)	-5.3288536779602e-17	-1	0
+EX_cpd00268_e0	Exchange of Thiosulfate	5.3288536776312e-17	0	-1

@@ -1,0 +1,22 @@
+		sol$fluxes	cpd00013[c0]	cpd00013[e0]
+		met_name	Ammonium[c0]	Ammonium[e0]
+rxn00060_c0	porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)	3.26247962171905e-05	4	0
+rxn00278_c0	L-Alanine:NAD+ oxidoreductase (deaminating)	0.279892896631144	1	0
+rxn00410_c0	UTP:ammonia ligase (ADP-forming)	0.000627434894275898	-1	0
+rxn00726_c0	chorismate pyruvate-lyase (amino-accepting; anthranilate-forming)	0.000223022102708114	-1	0
+rxn00916_c0	Xanthosine-5'-phosphate:ammonia ligase (AMP-forming)	0.00102747542224582	-1	0
+rxn01377_c0	gamma-Amino-gamma-cyanobutanoate aminohydrolase	999.999942966171	1	0
+rxn02475_c0	2,5-Diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase	3.26247962171905e-05	1	0
+rxn03379_c0	Selenocystathionine L-homocysteine-lyase (deaminating)	0.0938007478653257	1	0
+rxn05466_c0	TRANS-RXN-173.ce	-0.56961461931462	1	-1
+rxn07450_c0	L-cysteate bisulfite-lyase (deaminating)	-1.26559173695903e-27	1	0
+rxn09519_c0	alpha-Aminopropiononitrile aminohydrolase	-0.000114067657742761	1	0
+rxn15274_c0	gamma-Amino-gamma-cyanobutanoate aminohydrolase	-999.999942966171	1	0
+rxn15410_c0	alpha-Aminopropiononitrile aminohydrolase	0.000114067657742761	1	0
+EX_cpd00013_e0	Exchange of Ammonium	0.56961461931462	0	-1
+rxn00339_c0	L-Aspartate:ammonia ligase (ADP-forming)	0.000945778917039966	-1	0
+rxn00395_c0	L-Arginine iminohydrolase	0.00129331970397625	1	0
+rxn00867_c0	L-histidine ammonia-lyase (urocanate-forming)	0.0996282964954865	1	0
+rxn01640_c0	N-Formimino-L-glutamate iminohydrolase	0.0996282964954865	1	0
+rxn10484_c0	diaminopimelate dehydrogenase	5.70338288713806e-05	-1	0
+rxn15112_c0	Ribose-5-phosphate:ammonia ligase (ADP-forming)	0.00191131669269405	-1	0
